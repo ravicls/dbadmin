@@ -3,9 +3,9 @@ GO
 
 /****** Object:  Table [dbo].[CommandLog]    Script Date: 6/10/2018 10:57:52 AM ******/
 IF EXISTS (SELECT 1 FROM SYS.OBJECTS WHERE NAME ='CommandLog')
-
+BEGIN
 DROP TABLE [dbo].[CommandLog]
-GO
+END
 
 /****** Object:  Table [dbo].[CommandLog]    Script Date: 6/10/2018 10:57:52 AM ******/
 SET ANSI_NULLS ON
