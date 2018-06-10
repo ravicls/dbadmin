@@ -1,7 +1,7 @@
 USE [Dbadmin]
 GO
 
-/****** Object:  StoredProcedure [dbo].[USP_ACTIVE]    Script Date: 6/10/2018 11:28:00 AM ******/
+IF EXISTS (SELECT 1 FROM SYS.OBJECTS WHERE NAME ='USP_ACTIVE' AND TYPE ='P')
 DROP PROCEDURE [dbo].[USP_ACTIVE]
 GO
 
