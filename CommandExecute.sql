@@ -1,7 +1,7 @@
 USE [Dbadmin]
 GO
 
-/****** Object:  StoredProcedure [dbo].[CommandExecute]    Script Date: 6/10/2018 11:27:23 AM ******/
+IF EXISTS(SELECT 1 FROM SYS.OBJECTS WHERE NAME ='CommandExecute' and type ='P')
 DROP PROCEDURE [dbo].[CommandExecute]
 GO
 
@@ -204,4 +204,3 @@ END
 
 
 GO
-
